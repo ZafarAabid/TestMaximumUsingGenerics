@@ -1,28 +1,14 @@
 package com.generics;
 
 public class FindMaximum {
-    public static Integer findLargest(Integer i, Integer i2,Integer i3) {
-        Integer max=i;
-        if(i2.compareTo(max)>0)
-            max=i2;
-        if(i3.compareTo(max)>0)
-            max=i3;
-        return max;
 
-    }
-
-    public static Float findLargest(Float a, Float b, Float c ) {
-        Float max=a;
-        max = (a.compareTo(b) > 0 ? (a.compareTo(c) > 0 ? a : c ) : (b.compareTo(c) > 0 ? b : c ));
-        return max;
-    }
-
-    public static String findLargest(String firstString, String secoundString, String thirdString) {
-        String max=firstString;
-        if(secoundString.toString().compareTo(max.toString())>0)
-            max=secoundString;
-        if(thirdString.toString().compareTo(max.toString())>0)
-            max=thirdString;
+    public static <E extends Comparable<E>> E findLargest(E firstValue, E secoundValue, E thirdValue) {
+        E max=firstValue;
+        if(secoundValue.compareTo(max)>0)
+            max=secoundValue;
+        if(thirdValue.compareTo(max)>0) {
+            max=thirdValue;
+        }
         return max;
     }
 }
