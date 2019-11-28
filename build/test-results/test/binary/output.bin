@@ -1,6 +1,12 @@
-largest number is sadfg
-largest number is 21
-largest number is 21.1
-largest number is zxc
-largest number is 151.1
-largest number is 456
+1givenNumbers_ifFindMaximum_ReturnThatStringValue
+Largest input is sadfg
+1givenNumber_IfFindMaximum_ReturnThatIntegerValue
+Largest input is 21
+0givenNumbers_ifFindMaximum_ReturnThatFloatValue
+Largest input is 21.1
+BgivenNumbers_ifFindMaximum_ReturnThatStringValue_UsingConstructor
+Largest input is zxc
+AgivenNumbers_ifFindMaximum_ReturnThatFloatValue_UsingConstructor
+Largest input is 151.1
+CgivenNumbers_ifFindMaximum_ReturnThatIntegerValue_UsingConstructor
+Largest input is 456

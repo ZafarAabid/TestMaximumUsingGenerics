@@ -24,9 +24,10 @@ public class FindMaximum<E extends Comparable> {
         if(thirdValue.compareTo(max)>0) {
             max=thirdValue;
         }
+        FindMaximum.printMax("Largest input is "+max);
         return max;
     }
-
-
-
+    public static <E> void printMax(E value){
+        System.out.println(value);
+    }
 }
