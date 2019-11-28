@@ -17,5 +17,12 @@ public class FindMaximum {
         return max;
     }
 
-
+    public static String findLargest(String firstString, String secoundString, String thirdString) {
+        String max=firstString;
+        if(secoundString.compareTo(max)>0)
+            max=secoundString;
+        if(thirdString.compareTo(max)>0)
+            max=thirdString;
+        return max;
+    }
 }
