@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.generics.MaximumNumberTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T10:51:17" hostname="FH400" time="0.006">
+<testsuite name="com.generics.MaximumNumberTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T10:58:53" hostname="FH400" time="0.01">
   <properties/>
-  <testcase name="givenNumbers_ifMoreThan3_shouldAlsoReturnLargest" classname="com.generics.MaximumNumberTests" time="0.006"/>
+  <testcase name="givenNumbers_ifMoreThan3_shouldAlsoReturnLargest" classname="com.generics.MaximumNumberTests" time="0.01"/>
   <system-out><![CDATA[largest number is 21.1
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -13,4 +13,12 @@ public class MaximumNumberTests {
         System.out.println("largest number is "+largest);
         Assert.assertSame(21,largest);
     }
+
+    @Test
+    public void givenNumbers_ifMoreThan3_shouldAlsoReturnLargest() {
+
+        Float largest=FindMaximum.findLargest(1.1f,21.1f,3.0f);
+        System.out.println("largest number is "+largest);
+        Assert.assertEquals(21.1,largest,0.01);
+    }
 }

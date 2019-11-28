@@ -11,5 +11,11 @@ public class FindMaximum {
 
     }
 
+    public static Float findLargest(Float a, Float b, Float c ) {
+        Float max=a;
+        max = (a.compareTo(b) > 0 ? (a.compareTo(c) > 0 ? a : c ) : (b.compareTo(c) > 0 ? b : c ));
+        return max;
+    }
+
 
 }
