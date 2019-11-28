@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.generics.MaximumNumberTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-11-28T11:55:08" hostname="FH400" time="0.034">
+<testsuite name="com.generics.MaximumNumberTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-11-28T12:46:47" hostname="FH400" time="0.019">
   <properties/>
-  <testcase name="givenNumbers_ifFindMaximum_ReturnThatStringValue" classname="com.generics.MaximumNumberTests" time="0.011"/>
-  <testcase name="givenNumbers_ifFindMaximum_ReturnThatGenericValue" classname="com.generics.MaximumNumberTests" time="0.003"/>
-  <testcase name="givenNumber_IfFindMaximum_ReturnThatIntegerValue" classname="com.generics.MaximumNumberTests" time="0.004"/>
-  <testcase name="givenNumbers_ifFindMaximum_ReturnThatFloatValue" classname="com.generics.MaximumNumberTests" time="0.004"/>
+  <testcase name="givenNumbers_ifFindMaximum_ReturnThatStringValue" classname="com.generics.MaximumNumberTests" time="0.009"/>
+  <testcase name="givenNumber_IfFindMaximum_ReturnThatIntegerValue" classname="com.generics.MaximumNumberTests" time="0.0"/>
+  <testcase name="givenNumbers_ifFindMaximum_ReturnThatFloatValue" classname="com.generics.MaximumNumberTests" time="0.0"/>
+  <testcase name="givenNumbers_ifFindMaximum_ReturnThatStringValue_UsingConstructor" classname="com.generics.MaximumNumberTests" time="0.001"/>
+  <testcase name="givenNumbers_ifFindMaximum_ReturnThatFloatValue_UsingConstructor" classname="com.generics.MaximumNumberTests" time="0.001"/>
+  <testcase name="givenNumbers_ifFindMaximum_ReturnThatIntegerValue_UsingConstructor" classname="com.generics.MaximumNumberTests" time="0.001"/>
   <system-out><![CDATA[largest number is sadfg
-largest number is sadfg
 largest number is 21
 largest number is 21.1
+largest number is zxc
+largest number is 151.1
+largest number is 456
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
