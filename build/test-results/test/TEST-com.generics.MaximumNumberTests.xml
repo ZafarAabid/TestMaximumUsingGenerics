@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.generics.MaximumNumberTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T11:11:06" hostname="FH400" time="0.015">
+<testsuite name="com.generics.MaximumNumberTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T11:19:20" hostname="FH400" time="0.006">
   <properties/>
-  <testcase name="givenNumbers_ifFindMaximum_ReturnThatStringValue" classname="com.generics.MaximumNumberTests" time="0.015"/>
-  <system-out><![CDATA[largest number is zzz
+  <testcase name="givenNumbers_ifFindMaximum_ReturnThatStringValue" classname="com.generics.MaximumNumberTests" time="0.006"/>
+  <system-out><![CDATA[aaz
+sadfg
+sadfg
+largest number is sadfg
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

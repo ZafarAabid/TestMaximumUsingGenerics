@@ -19,9 +19,9 @@ public class FindMaximum {
 
     public static String findLargest(String firstString, String secoundString, String thirdString) {
         String max=firstString;
-        if(secoundString.compareTo(max)>0)
+        if(secoundString.toString().compareTo(max.toString())>0)
             max=secoundString;
-        if(thirdString.compareTo(max)>0)
+        if(thirdString.toString().compareTo(max.toString())>0)
             max=thirdString;
         return max;
     }

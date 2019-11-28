@@ -25,9 +25,9 @@ public class MaximumNumberTests {
     @Test
     public void givenNumbers_ifFindMaximum_ReturnThatStringValue() {
 
-        String largest=FindMaximum.findLargest("aaa","zzz","qqq");
+        String largest=FindMaximum.findLargest("aaz","sadfg","qwer");
         System.out.println("largest number is "+largest);
-        Assert.assertSame("zzz",largest);
+        Assert.assertSame("sadfg",largest);
     }
 
 }
