@@ -5,28 +5,29 @@ import org.junit.Test;
 
 public class MaximumNumberTests {
 
+//    FindMaximum findMaximum = new FindMaximum();
     @Test
     public void givenNumber_IfFindMaximum_ReturnThatIntegerValue() {
         System.out.println("givenNumber_IfFindMaximum_ReturnThatIntegerValue");
 
-        Integer largest=FindMaximum.findLargest(11,21,3);
-        Assert.assertSame(21,largest);
+        FindMaximum findMaximum = new FindMaximum<Integer>(11,21,3);
+        Assert.assertSame(21,findMaximum.check());
     }
 
     @Test
     public void givenNumbers_ifFindMaximum_ReturnThatFloatValue() {
         System.out.println("givenNumbers_ifFindMaximum_ReturnThatFloatValue");
 
-        Float largest=FindMaximum.findLargest(1.1f,21.1f,3.0f);
-        Assert.assertEquals(21.1,largest,0.01);
+        FindMaximum findMaximum=new FindMaximum<Float>(1.1f,21.1f,3.0f);
+        Assert.assertEquals(21.1f,(Float) findMaximum.check(),0.01);
     }
 
     @Test
     public void givenNumbers_ifFindMaximum_ReturnThatStringValue() {
         System.out.println("givenNumbers_ifFindMaximum_ReturnThatStringValue");
 
-        String largest=FindMaximum.findLargest("aaz","sadfg","qwer");
-        Assert.assertSame("sadfg",largest);
+        FindMaximum findMaximum =new FindMaximum<String>("aaz","sadfg","qwer");
+        Assert.assertSame("sadfg",findMaximum.check());
     }
 
     @Test
@@ -34,7 +35,7 @@ public class MaximumNumberTests {
         System.out.println("givenNumbers_ifFindMaximum_ReturnThatIntegerValue_UsingConstructor");
 
         FindMaximum findMaximum = new FindMaximum<Integer>(456,85,10);
-        Integer largest = (Integer) findMaximum.findLargest();
+        Integer largest = (Integer) findMaximum.check();
         Assert.assertEquals(new Integer(456),largest);
     }
     @Test
@@ -42,7 +43,7 @@ public class MaximumNumberTests {
         System.out.println("givenNumbers_ifFindMaximum_ReturnThatStringValue_UsingConstructor");
 
         FindMaximum findMaximum = new FindMaximum<String>("asd","qwe","zxc");
-        String largest = (String) findMaximum.findLargest();
+        String largest = (String) findMaximum.check();
         Assert.assertEquals("zxc",largest);
     }
 
@@ -51,7 +52,7 @@ public class MaximumNumberTests {
         System.out.println("givenNumbers_ifFindMaximum_ReturnThatFloatValue_UsingConstructor");
 
         FindMaximum findMaximum = new FindMaximum<Float>(1.1f,20.0f,151.1f);
-        Float largest = (Float) findMaximum.findLargest();
+        Float largest = (Float) findMaximum.check();
         Assert.assertEquals(new Float(151.1f),largest,0.1);
     }
 

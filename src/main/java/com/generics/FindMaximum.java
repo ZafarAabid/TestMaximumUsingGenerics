@@ -1,33 +1,33 @@
 package com.generics;
 
+import java.util.Arrays;
+
 public class FindMaximum<E extends Comparable> {
-        E firstValue;
-        E secoundValue;
-        E thirdValue;
 
-    public FindMaximum(E firstValue, E secoundValue, E thirdValue) {
-        this.firstValue = firstValue;
-        this.secoundValue = secoundValue;
-        this.thirdValue = thirdValue;
-    }
+    E[] valueArr;
 
-    public <E extends Comparable> E findLargest() {
-
-        E max=(E) findLargest(firstValue,secoundValue,thirdValue);
-        return max;
-    }
-    public static <E extends Comparable<E>> E findLargest(E firstValue, E secoundValue, E thirdValue) {
-        E max=firstValue;
-
-        if(secoundValue.compareTo(max)>0)
-            max=secoundValue;
-        if(thirdValue.compareTo(max)>0) {
-            max=thirdValue;
+    public FindMaximum(){}
+    public FindMaximum(E... val) {
+        System.out.println();
+        valueArr=(E[]) new Comparable[val.length];
+        E[] array=(E[]) new Comparable[val.length];
+        int i=0;
+        for(E c:val){
+            array[i]=c;
+            i++;
         }
-        FindMaximum.printMax("Largest input is "+max);
-        return max;
+        this.valueArr = array;
     }
+    public E check(){
+
+        Arrays.sort(valueArr);
+        E largestValue=valueArr[valueArr.length-1];
+        printMax(largestValue);
+        return largestValue;
+    }
+
     public static <E> void printMax(E value){
         System.out.println(value);
     }
+
 }

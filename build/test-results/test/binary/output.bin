@@ -1,12 +1,18 @@
 1givenNumbers_ifFindMaximum_ReturnThatStringValue
-Largest input is sadfg
+
+sadfg
 1givenNumber_IfFindMaximum_ReturnThatIntegerValue
-Largest input is 21
+
+21
 0givenNumbers_ifFindMaximum_ReturnThatFloatValue
-Largest input is 21.1
+
+21.1
 BgivenNumbers_ifFindMaximum_ReturnThatStringValue_UsingConstructor
-Largest input is zxc
+
+zxc
 AgivenNumbers_ifFindMaximum_ReturnThatFloatValue_UsingConstructor
-Largest input is 151.1
+
+151.1
 CgivenNumbers_ifFindMaximum_ReturnThatIntegerValue_UsingConstructor
-Largest input is 456
+
+456

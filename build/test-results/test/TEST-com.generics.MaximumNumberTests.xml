@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.generics.MaximumNumberTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-11-28T13:04:56" hostname="FH400" time="0.018">
+<testsuite name="com.generics.MaximumNumberTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-11-29T06:36:02" hostname="FH400" time="0.014">
   <properties/>
-  <testcase name="givenNumbers_ifFindMaximum_ReturnThatStringValue" classname="com.generics.MaximumNumberTests" time="0.006"/>
+  <testcase name="givenNumbers_ifFindMaximum_ReturnThatStringValue" classname="com.generics.MaximumNumberTests" time="0.007"/>
   <testcase name="givenNumber_IfFindMaximum_ReturnThatIntegerValue" classname="com.generics.MaximumNumberTests" time="0.001"/>
-  <testcase name="givenNumbers_ifFindMaximum_ReturnThatFloatValue" classname="com.generics.MaximumNumberTests" time="0.002"/>
+  <testcase name="givenNumbers_ifFindMaximum_ReturnThatFloatValue" classname="com.generics.MaximumNumberTests" time="0.001"/>
   <testcase name="givenNumbers_ifFindMaximum_ReturnThatStringValue_UsingConstructor" classname="com.generics.MaximumNumberTests" time="0.001"/>
-  <testcase name="givenNumbers_ifFindMaximum_ReturnThatFloatValue_UsingConstructor" classname="com.generics.MaximumNumberTests" time="0.0"/>
-  <testcase name="givenNumbers_ifFindMaximum_ReturnThatIntegerValue_UsingConstructor" classname="com.generics.MaximumNumberTests" time="0.001"/>
+  <testcase name="givenNumbers_ifFindMaximum_ReturnThatFloatValue_UsingConstructor" classname="com.generics.MaximumNumberTests" time="0.001"/>
+  <testcase name="givenNumbers_ifFindMaximum_ReturnThatIntegerValue_UsingConstructor" classname="com.generics.MaximumNumberTests" time="0.0"/>
   <system-out><![CDATA[givenNumbers_ifFindMaximum_ReturnThatStringValue
-Largest input is sadfg
+
+sadfg
 givenNumber_IfFindMaximum_ReturnThatIntegerValue
-Largest input is 21
+
+21
 givenNumbers_ifFindMaximum_ReturnThatFloatValue
-Largest input is 21.1
+
+21.1
 givenNumbers_ifFindMaximum_ReturnThatStringValue_UsingConstructor
-Largest input is zxc
+
+zxc
 givenNumbers_ifFindMaximum_ReturnThatFloatValue_UsingConstructor
-Largest input is 151.1
+
+151.1
 givenNumbers_ifFindMaximum_ReturnThatIntegerValue_UsingConstructor
-Largest input is 456
+
+456
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
